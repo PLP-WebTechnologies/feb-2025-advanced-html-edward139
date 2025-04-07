@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sample Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    table, th, td {
+      border: 1px solid #333;
+      border-collapse: collapse;
+      padding: 8px;
+    }
+    table {
+      margin-bottom: 20px;
+      width: 100%;
+    }
+    form input, form select {
+      margin-bottom: 10px;
+      display: block;
+      width: 100%;
+      padding: 8px;
+    }
+    form {
+      max-width: 400px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Ordered List with Roman Numerals</h1>
+  <ol type="I">
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+    <li>Python</li>
+    <li>Java</li>
+  </ol>
+
+  <h1>External Image from Pexels</h1>
+  <img src="https://images.pexels.com/photos/414171/pexels-photo-414171.jpeg" alt="Nature Image from Pexels" width="500">
+
+  <h1>Contact Table</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Address</th>
+        <th>Mobile</th>
+        <th>Email</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Alice Smith</td>
+        <td>123 Maple St</td>
+        <td>+1234567890</td>
+        <td>alice@example.com</td>
+      </tr>
+      <tr>
+        <td>Bob Johnson</td>
+        <td>456 Oak Ave</td>
+        <td>+1987654321</td>
+        <td>bob@example.com</td>
+      </tr>
+      <tr>
+        <td>Charlie Lee</td>
+        <td>789 Pine Rd</td>
+        <td>+1122334455</td>
+        <td>charlie@example.com</td>
+      </tr>
+      <tr>
+        <td>Diana Prince</td>
+        <td>321 Elm Blvd</td>
+        <td>+1223344556</td>
+        <td>diana@example.com</td>
+      </tr>
+      <tr>
+        <td>Edward Kim</td>
+        <td>654 Cedar Ln</td>
+        <td>+1445566778</td>
+        <td>edward@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h1>Registration Form</h1>
+  <form>
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="mobile">Mobile Number:</label>
+    <input type="tel" id="mobile" name="mobile" required>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+      <option value="">--Select--</option>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+    </select>
+
+    <button type="submit">Register</button>
+  </form>
+
+</body>
+</html>
